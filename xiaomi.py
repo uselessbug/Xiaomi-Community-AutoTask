@@ -119,7 +119,7 @@ def main(account,password):
     if len(cookie) == 0 or cookie == 'Error':
         print(f'{account}：登录失败')
     else:
-        for action in ['check_in','like','browse','carrot','check_status']:
+        for action in ['info','check_in','like','browse','carrot','check_status']:
             eval(f'{action}(cookie)')
 
 if __name__ == '__main__':

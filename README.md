@@ -5,10 +5,23 @@ A Python script for automatically completing Xiaomi community points tasks
 # How to use
 
 1. Fill in your account and password
-2. Make sure you have installed the requests module or you can run `pip install requests` to install
+
+2. Make sure you have installed the execjs, requests and cv2 module, or install them manually
+
+   ```bash
+   pip install requests
+   pip install PyExecJS
+   pip install opencv-python
+   ```
+
 3. Run and enjoy
 
 # Change Log
+
+## 2023-11-18
+
+- Fix token acquisition
+- Package the functions into a binary file
 
 ## 2023-11-12
 

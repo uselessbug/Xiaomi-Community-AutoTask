@@ -2,21 +2,30 @@
 
 A Python script for automatically completing Xiaomi community points tasks
 
+Modified to compatible with [miui-auto-tasks](https://github.com/0-8-4/miui-auto-tasks)' v1.6.0 config file
+
+# Support environment
+
+The script only support **Python3.9**
+
 # How to use
 
-1. Fill in your account and password
+1. Configure as what you needs in `config.yaml`. 
+   For details, refer to [here](https://github.com/0-8-4/miui-auto-tasks/wiki#配置文件). Configurations about UA and ONEPUSH take no effects.
 
 2. Make sure you have installed the execjs, requests and cv2 module, or install them manually
 
    ```bash
-   pip install requests
-   pip install PyExecJS
-   pip install opencv-python
+   pip install -r requirements.txt
    ```
 
-3. Run and enjoy
+3. Run `xiaomi.py` and enjoy
 
 # Change Log
+
+## 2023-11-19
+
+- Added compatibility with [miui-auto-tasks](https://github.com/0-8-4/miui-auto-tasks)' v1.6.0 config file
 
 ## 2023-11-18
 
